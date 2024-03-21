@@ -1,0 +1,39 @@
+.wrapper {
+    &__games {
+        display: flex;
+        flex-wrap: wrap;
+
+        .game {
+
+            padding: 15px;
+
+            .wrapper {
+                padding-bottom: 10px;
+                width: 350px;
+                border: 1px solid grey;
+                border-radius: 19px;
+                overflow: hidden;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+                &__image {
+                    
+                    .gameBackground {
+                        width: 350px;
+                        height: 210px;
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+                &__title {
+                }
+                &__info {
+                }
+            }
+
+        }
+    }
+
+    &__pagination {
+        
+    }
+}
